@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80pt"
+    android:layout_height="80pt"
+    android:background="@color/darkslategrey"
+    android:padding="3pt"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@drawable/background"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100pt"
+            android:layout_height="50pt"
+            android:id="@+id/movie_image"
+            android:src="@drawable/manvsbee"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="3dp"
+            android:text="Man Vs Bee"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+
+            android:id="@+id/moviedisplay"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>
