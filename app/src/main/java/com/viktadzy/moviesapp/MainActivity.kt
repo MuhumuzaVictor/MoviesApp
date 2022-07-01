@@ -23,7 +23,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         //load movies
-        listOfMovies.add(movies("Man vs Bee","..................",R.drawable.manvsbee))
+        listOfMovies.add(movies("Man vs Bee","Release Info: June 24, 2022 \n" +
+                "Genre: #Short \uD83E\uDD23 #Comedy \uD83D\uDC68\u200D\uD83D\uDC69\u200D\uD83D\uDC67\u200D\uD83D\uDC67 #Family\n" +
+                "Language:  #English\n" +
+                "Country of Origin: \uD83C\uDDEC\uD83C\uDDE7 #United_Kingdom\n" +
+                "Story Line: A man finds himself at war with a bee while housesitting a luxurious mansion. Who will win, and what irreparable damage will be done in the process?\n" +
+                "Writers  Rowan Atkinson, Will Davies \n" +
+                "Stars  Rowan Atkinson, Claudie Blakley, Jing Lusi ",R.drawable.manvsbee))
         listOfMovies.add(movies("Man from Toronto","..................",R.drawable.manfromtoronto))
         listOfMovies.add(movies("Ambulance","..................",R.drawable.ambulance))
         listOfMovies.add(movies("Last Seen Alive","..................",R.drawable.lastalive))

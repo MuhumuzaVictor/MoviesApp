@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="80pt"
+    android:layout_width="100pt"
     android:layout_height="80pt"
-    android:background="@color/darkslategrey"
-    android:padding="3pt"
+    android:background="@color/darkgray"
+    android:paddingTop="3pt"
     android:orientation="vertical">
 
     <LinearLayout
