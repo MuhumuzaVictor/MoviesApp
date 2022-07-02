@@ -4,11 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MoviesApp/app/src/main/res/drawable/background.xml" value="0.204" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MoviesApp/app/src/main/res/layout/activity_displaymovies.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MoviesApp/app/src/main/res/layout/activity_downloadpage.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MoviesApp/app/src/main/res/layout/activity_main.xml" value="0.22395833333333334" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MoviesApp/app/src/main/res/layout/activity_movie_details.xml" value="0.22395833333333334" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MoviesApp/app/src/main/res/layout/activity_moviesdisplay.xml" value="0.22395833333333334" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MoviesApp/app/src/main/res/layout/activity_splash.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MoviesApp/app/src/main/res/layout/activity_welcomepage.xml" value="0.2" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MoviesApp/app/src/main/res/layout/background.xml" value="0.20989583333333334" />
       </map>
     </option>

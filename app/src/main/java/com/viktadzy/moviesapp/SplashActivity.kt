@@ -14,7 +14,7 @@ class SplashActivity : AppCompatActivity() {
 
         Handler().postDelayed(
             {
-                val i= Intent(this,movies::class.java)
+                val i= Intent(this,welcomepage::class.java)
                 startActivity(i)
             },splash_time_out
         )
