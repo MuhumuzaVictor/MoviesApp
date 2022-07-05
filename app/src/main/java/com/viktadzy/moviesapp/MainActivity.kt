@@ -79,6 +79,28 @@ class MainActivity : AppCompatActivity() {
                 "\uD835\uDDDA\uD835\uDDF2\uD835\uDDFB\uD835\uDDFF\uD835\uDDF2\uD835\uDE00: #Action, #Adventure, #Drama, #Thriller \uD83D\uDC51\n" +
                 "\n" +
                 "\uD835\uDDE5\uD835\uDDF2\uD835\uDDF9\uD835\uDDF2\uD835\uDDEE\uD835\uDE00\uD835\uDDF2 \uD835\uDDD7\uD835\uDDEE\uD835\uDE01\uD835\uDDF2: March , 2022",R.drawable.interceptor))
+        listOfMovies.add(movies("Adam Project","\uD835\uDDE0\uD835\uDDFC\uD835\uDE03\uD835\uDDF6\uD835\uDDF2 \uD835\uDDE7\uD835\uDDF6\uD835\uDE01\uD835\uDDF9\uD835\uDDF2: The Adam Project \n" +
+                " \n" +
+                "\uD835\uDDDA\uD835\uDDF2\uD835\uDDFB\uD835\uDDFF\uD835\uDDF2\uD835\uDE00: #Action #Adventure #Comedy #Sci-fi\n" +
+                "\n" +
+                "\uD835\uDDE5\uD835\uDDF2\uD835\uDDF9\uD835\uDDF2\uD835\uDDEE\uD835\uDE00\uD835\uDDF2 \uD835\uDDD7\uD835\uDDEE\uD835\uDE01\uD835\uDDF2: 11 March 2022\n" +
+                "\n" +
+                "\uD835\uDDE3\uD835\uDDF9\uD835\uDDFC\uD835\uDE01: Past meets future.\n" +
+                "After accidentally crash-landing in 2022, time-traveling fighter pilot Adam Reed teams up with his 12-year-old self on a mission to save the future.",R.drawable.adamproject))
+        listOfMovies.add(movies("Infinite Storm","\uD835\uDDE0\uD835\uDDFC\uD835\uDE03\uD835\uDDF6\uD835\uDDF2 \uD835\uDDE7\uD835\uDDF6\uD835\uDE01\uD835\uDDF9\uD835\uDDF2: Infinite Storm\n" +
+                " \n" +
+                "\uD835\uDDDA\uD835\uDDF2\uD835\uDDFB\uD835\uDDFF\uD835\uDDF2\uD835\uDE00: #Drama #Thriller\n" +
+                "\n" +
+                "\uD835\uDDE5\uD835\uDDF2\uD835\uDDF9\uD835\uDDF2\uD835\uDDEE\uD835\uDE00\uD835\uDDF2 \uD835\uDDD7\uD835\uDDEE\uD835\uDE01\uD835\uDDF2: 25 March 2022\n" +
+                "\n" +
+                "\uD835\uDDE3\uD835\uDDF9\uD835\uDDFC\uD835\uDE01: As an experienced climber ascends Mount Washington, she turns back before she reaches the summit as a huge blizzard approaches. However, on her way down, she encounters a stranded man and takes it upon herself to get them both down the mountain before nightfall arrives and they succumb to the elements. ",R.drawable.infinitestorm))
+        listOfMovies.add(movies("Murder At Yellow Stone City","\uD835\uDC06\uD835\uDC04\uD835\uDC0D\uD835\uDC11\uD835\uDC04\uD835\uDC12: #Mystery\uD83D\uDCAD #Western\uD83C\uDFF3️\n" +
+                "\n" +
+                "\uD835\uDC11\uD835\uDC04\uD835\uDC0B\uD835\uDC04\uD835\uDC00\uD835\uDC12\uD835\uDC04 \uD835\uDC03\uD835\uDC00\uD835\uDC13\uD835\uDC04: Jun 24, 2022 \uD83C\uDDFA\uD83C\uDDF8 \n" +
+                "\n" +
+                "\uD835\uDC0F\uD835\uDC0B\uD835\uDC0E\uD835\uDC13: In a town of suspects, one man stands accused.\n" +
+                "\n" +
+                "A former slave who arrives in Yellowstone City, Montana, a desolate former boomtown now on the decline, looking for a place to call home. On that same day, a local prospector discovers gold - and is murdered. ",R.drawable.yellowstone))
         adapter =movieAdapter(this,listOfMovies)
         //assign our list to our gridview id
         findViewById<GridView>(R.id.movielist).adapter=adapter

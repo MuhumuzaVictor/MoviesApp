@@ -13,7 +13,7 @@ class Downloadpage : AppCompatActivity() {
 
         val web = findViewById<WebView>(R.id.myweb)
         web.webViewClient = WebViewClient()//responsible for loading the url defined below
-        web.loadUrl("https://www.thenetnaija.net/videos/movies")
+        web.loadUrl("https://www.limetorrents.to/")
         val webSettings = web.settings
         webSettings.javaScriptEnabled = true
 
